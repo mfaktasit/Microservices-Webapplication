@@ -9,5 +9,3 @@ IMAGE_TAG_HYSTRIX_DASHBOARD: "${IMAGE_TAG_HYSTRIX_DASHBOARD}"
 IMAGE_TAG_GRAFANA_SERVICE: "${IMAGE_TAG_GRAFANA_SERVICE}"
 IMAGE_TAG_PROMETHEUS_SERVICE: "${IMAGE_TAG_PROMETHEUS_SERVICE}"
 DNS_NAME: "mfaktas.com"
-
-AWS_REGION=us-east-1 helm repo add stable-petclinicapp s3://petclinic-helm-charts-mfaktas/stable/myapp/
